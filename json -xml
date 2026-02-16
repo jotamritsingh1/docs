@@ -1,1 +1,4 @@
-json -xml
+xml
+Enterprise grade systems : often used in industries like healthcare,finance, and gov that rely of legacy systems and require high reliebility.
+complex document sctructures: ideal for documents that require rich metadata,namespaces,and validation against scrict schema.
+specific protocols : still prevalent in tech like SOAP web services which leverage its advanced features like XSLT(transform) and Xpath(quering)
