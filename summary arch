@@ -1,0 +1,20 @@
+Storage arch 
+parquet/orc :column based efficient for reading specfic columns and high compression
+acro : row based
+
+Best use case :
+parquet : data lakes spark olap readheavy workloads 
+ORC : hive/hadoop ecosystem , highly compressed data storage 
+avro : kafka streaming data ETL, write heavy workloads, schema evolution 
+
+Compression & perf 
+Orc generally offers the highest compression , reduce storage costs
+parquet excels in query perf on large datasets
+avro has moderate compression but is fast for writing and serialization.
+schema evolution 
+avro is the most flexible , allowing changes to the data structures
+parquet supports it but is less flexible than avro. 
+ORC has limited schema evolution capabilities
+
+
+
