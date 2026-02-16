@@ -1,0 +1,10 @@
+Structure : JSON allows for complex nested hierarical data structures , while CSV is limited to flat,row column tabular formats.
+Data Types: JSON supports strings numbers booleans, arrays, null. CSV stores everthing as text. 
+Size/verbpsity : JSON is generally more verbose because it repeats keys for every record.CSV is more consise , making is better for storing larger vol of uniform data.
+Parsing :   CSV is faster and easier to parse for simpler datasets, while JSON parsing can be more resource intensive for very large,deeply nested files.
+Usage : JSON is the standard for modern web APIs and confguration files. CSV is preferred for spreadsheets and data science.
+  
+when to use which : 
+use json for nested , hierarical , when you need scrictd datatype support,API
+  Use CSV : when data is flat/tabular, when filezise is a concern , or for sharing simple data with spreadsheet tools like excel.
+  
