@@ -1,0 +1,3 @@
+need to serialize structured data for high performance network communication between services, often with gRPC
+serialization and deserialization speed is the top priority for efficient data interchange.
+need a compact binary format to transfer data with limited bandwith . 
