@@ -1,0 +1,16 @@
+Apache avro : designed for write intensive scenario and data serialization.
+  excellent schema evolution , compact binary format , but slower for analytical queries 
+
+Apache parquet : optimised for read-heavy analytical workloads (spark/presto).High compression ratios and efficient columnar storage
+
+Apache iceberg (table Format /management layer) : manages collections of files (usually parquet) to provide ACID transactions , time travel , robust partitoning.
+  It solves the performance limitations of listing files in data lakes.
+
+  
+comparison 
+avro for rawdata ingestion , CDC (change data capture),and streaming applications. use parquet for long term storage of analytics data where query perf is critical.
+  use iceberg to manage large scale data lakes where you need ACID guarantees, time travel or partition evolution
+typical data lake house arch , ingest data in avro , convert to parquet for storage ,and manage file using iceberg for quering.
+
+
+
