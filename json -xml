@@ -1,4 +1,24 @@
-xml
+JSON
+
+
+
+Format:key value pairs.
+Syntax: compact easy to read/write 
+File size : smaller file sizes due to less overhead
+Parsing: can be parsed by std javascript function 
+Datatype: Natively supports strings,num,booleans, arrays,objects
+Schema:
+
+
+XML
 Enterprise grade systems : often used in industries like healthcare,finance, and gov that rely of legacy systems and require high reliebility.
 complex document sctructures: ideal for documents that require rich metadata,namespaces,and validation against scrict schema.
 specific protocols : still prevalent in tech like SOAP web services which leverage its advanced features like XSLT(transform) and Xpath(quering)
+
+Format:uses tag based tree structure (markup languange).
+Syntax:more verbose, requires both start and end tags.
+File size : larger file sizes
+Parsing: requires a dedicated Xml parser
+Datatype: all data is string by default , reqs schema definition XSD,DTD
+Schema: mature powerful widely adopted  XSD,DTD for rigorous validation.
+
