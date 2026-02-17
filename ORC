@@ -1,0 +1,16 @@
+we created ORC files as part of the initiative to massively speed up apache hive and improve the storage efficiency of the data stored in apache hadoop.
+the focus was on enabling the high speed processing and reducing file sizes.
+
+ORC is a self describing type aware columnar file format designed for hadoop workloads. It is optimized for large streaming reads, but wth integrated support for finding required rows
+quickly.storing data in a columnar format lets the reader read, decompress, and process only the values that are required for the current query. Because ORC files are type-aware, the 
+writer chooses chooses the most appropriate encoding for the type and builds an internal index as the file is written.
+
+predicate pushdown uses those indexes to determine which stripes in a file need to be read for a particular query and the row indexes can narrow the search to a particular set of 10k rows
+ORC supports the complete set of types in hive, including the complex types: struct,list,maps, and unions.
+
+many large hadoop users have adopted ORC.for instance, facebook uses ORC to save tens of petabytes in thier data warehouse and demostrated that ORC is significantly faster 
+than RC file or parquet.yahoo uses ORC to store their production data and has released some of their benchmark result.
+
+ORC files are divided in to stripes that are roughly 64mb by default. the stripes in a file are independent of each other and form the natural unit of distributed work.
+within each stripe, the columns are sepreated from each other so the reader can read just the columns that are required.
+
