@@ -1,0 +1,13 @@
+Hudi excels in CDC (change data capture) and near realtime workloads (e.g streaming). Iceberg is generally better for large-scale batch processing ans SQL analytics
+
+Write/update perfomance: hudi supports merge on read(MoR), which allows faster writes by delaying data compaction,making it superior for high frequency updates.
+  Iceberg is generally better for large scale batch processing and SQL analytics.
+  
+Architecture & features: hudi maintains indexing for efficient record lookup. iceberg shines with hidden partitioning and robust schema evolution(e.g,renaming/reordering columns) 
+without rewriting data.
+  
+Ecosystem: Iceberg is highly engine agnostic (works well with Trino,Spark,Flink,Snowflake).hudi has strong integrations,particularly with spark,and offers its own ingestion tool(deltastreamer)
+
+
+
+
