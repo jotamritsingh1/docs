@@ -9,5 +9,7 @@ without rewriting data.
 Ecosystem: Iceberg is highly engine agnostic (works well with Trino,Spark,Flink,Snowflake).hudi has strong integrations,particularly with spark,and offers its own ingestion tool(deltastreamer)
 
 
+choose hudi : lowlatency ingestion CDC, high freq upserts.
+choose iceberg : you need robust schema evolution,support for multiple query engines,or are doing heavy analytical quering on massive dataset.
 
 
