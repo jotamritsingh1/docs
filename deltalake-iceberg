@@ -1,0 +1,7 @@
+Ecosystem & Integration: deltalake is optimised for spark/databricks. Iceberg is designed for multi-engine,open data stack.
+schema and partioning: iceberg supports full schema evolution and hidden partitioning, which simplefies management by not requiring manual column updates or partitioning changes.
+delta lake supports schema changes but can struggle with complex changes.
+performance: Iceberg is generally better for high-volume batch processing and read heavy workloads. delta lake is often faster for streaming , though both are competitive.
+file formats: iceberg supports parquet,ORC, and avro, delta lake primarily supports parquet.
+interoperability : delta lake has introduced delta uniform to alow for better compatibility wth tools that support iceberg.
+    
