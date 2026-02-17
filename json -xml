@@ -1,5 +1,8 @@
 JSON
 
+Modern web APIs: It is the standard for most RESTful APIs due to its lightweight nature and speed.
+Mobile applications : smaller file sizes mean faster performance and less bandwith usage.
+data storage and configuriation: Its native integration with javascript makes is a popular choice for client-side applications and some NoSQL databases.
 
 
 Format:key value pairs.
