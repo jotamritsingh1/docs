@@ -1,0 +1,55 @@
+Flight for efficient columnar data transfer 
+DataFusion for high performance quering 
+arrow for optimized in-memory columnar analytic
+parquet for high compression storage.
+
+
+simple querying 
+while almost any graph query could be performed on a relational database using SQL, the query would be extremely complex. most graph databases have query languages built around the 
+idea of working with edges and nodes and traversing a graph structure. the result is simpler queries the are faster to write and easier to understand.
+
+standard SQL versus cypher query language used with neo4j
+
+SQL 
+
+Select e.lastname, et.Description
+FROM employee AS e
+JOIN employeeTerritory AS et ON (et.EmployeeID = e.EmployeeID)
+JOIN Territory AS t ON (et.TerritoryID = t.TerritoryID);
+copy 
+
+cypher
+
+Match (t:Territory)<-[:IN_territory]-(e:Employee)
+RETURN t.description,collect(e.lastname);
+copy
+
+Joins are very exp in terms of performance, trying to join values between many tables will result in very slow queries for large data sets.
+In comparision, these type of queries using graph database will be fast even on a large scale.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
