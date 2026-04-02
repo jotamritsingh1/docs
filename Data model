@@ -1,0 +1,55 @@
+1. Multiple Sources > Single database and data model 
+  More congregation of data to single database,(A single query engine)\
+    Can be used to present data in an operational data store
+2. mitidate the problem of isolation
+    Level lock contention in transaction processing systems caused by long running analysis
+3. maintain data history 
+
+4. data quality,by providing consisitent codes and descriptive
+
+5. Present Org info consistently
+6. single common data model all data of interest regardless of data source.
+7. makes sense business perspective(CRM)\
+8. Query performance
+9. Make decision support queries easier to write
+10. Organize and disambiguate repetitive data
+
+
+Dimensional approach 
+    transactions
+    facts
+    dimensions
+
+Model of facts and dimensions can also be understood as a data cude
+    facts as values corresponding to the coordinates
+
+The main disadvantage of the dimension approach are 
+    1. It is complicated to maintain the integrity of facts and dim
+    2. Difficult to modify the warehouse structure if the org changes the way it does business. 
+
+Hybrid design 
+    data warehouse 
+    
+1. sub oriented 
+    Data base normalizition 
+2. integrated 
+    data warehouse is integrated
+3. time variant 
+    day to day OPS and long time horizon 
+4. Non volitile 
+    The data in the warehouse cannot be updated,created,deleted.
+
+
+
+
+
+    
+
+
+
+
+
+    
+
+
+    
