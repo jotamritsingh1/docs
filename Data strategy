@@ -1,0 +1,25 @@
+1. Data mgt as core infra
+  Treat data with same relevance and priority as you would cloud infra or security.
+  Central data governance
+  implement access control and ensuring data flows are traceble and auditable.
+  
+2. Active data quality mechanisms
+  pipeline 
+  anomaly detection (automated)
+  labeling standards
+  monitor for drift
+  
+3. Synthetic data to fill gaps
+  and preserve privacy
+  
+4. Defensive design against
+  data poisoning
+  source verification
+  versioning
+  realtime validation
+  of external as well as internal data feeds
+  
+5. Data feedback loops
+  data should not be seen as immutable in your AI systems
+  It should be able to evolve and adapt over time.
+  
