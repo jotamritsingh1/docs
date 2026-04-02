@@ -1,0 +1,45 @@
+Indexing
+querytiming 
+performance
+optimization
+high availibility solution
+regular DB admin
+schema
+Table space
+backup/Recovery
+
+
+ER 
+1. Purpose and scope
+2. Enitites- rectangles
+3. Relationships-determine how the entities are all related draw lines to signify the relationship
+4. Attributes - layer in more details
+5. Cardinality - show whether the relationship is 1-1 ,1-many ,many-many
+
+Tips
+1. For your purpose 
+    conceptual,logical,physical
+2. redundant entities or relationship
+3. If your trouble shooting a database problem.
+    watch for holes in relationship or missing entities or attributes
+4. make sure to label
+5. you can translate relation tables 
+
+
+
+
+
+
+
+
+
+Ex. Pgbench,sysbench,jmeter,flamegraph.
+
+With support for testing large scale 
+Web based distributed app on containers
+
+Such as tomcat,Jboss,weblogic,websphere in unix.
+
+
+
+
