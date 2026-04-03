@@ -45,6 +45,8 @@ rolap
 6. better at handling non aggregable facts
 
 
+Disadvantages
+
 
 
 data latency of few hours
