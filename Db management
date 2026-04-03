@@ -8,6 +8,16 @@ schema
 Table space
 backup/Recovery
 
+Critical and complex infra
+consistency, eventual consistency
+consensus, Data replication
+partition tolerance
+
+ETL - preferrably functional programming
+Practice modularity - building a data processing flow in small, modular steps is another best practice in data quality
+Follow proper naming convention and proper doc 
+
+[3NF database] data warehouse
 
 ER 
 1. Purpose and scope
@@ -15,6 +25,7 @@ ER
 3. Relationships-determine how the entities are all related draw lines to signify the relationship
 4. Attributes - layer in more details
 5. Cardinality - show whether the relationship is 1-1 ,1-many ,many-many
+
 
 Tips
 1. For your purpose 
