@@ -24,6 +24,28 @@ Tips
     watch for holes in relationship or missing entities or attributes
 4. make sure to label
 5. you can translate relation tables 
+6. make sure Er diagram supports all the data you need to store
+7. different valid approaches to an Er diagram as long as it provides the necessary info for its scope.
+
+Entity type
+A group of definable things
+
+Entity set 
+Set
+Entity categories 
+strong,weak,associative
+
+strong entity can be defined solely by its own attributes
+
+Weak entity
+
+Conceptive data model 
+logical data model > contains more detail than a conceptual model more detailed operational and transaction
+entitites are now defined
+independent of tech 
+Physical data model > must show detail
+
+
 
 
 
