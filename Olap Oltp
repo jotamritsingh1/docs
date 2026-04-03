@@ -41,7 +41,8 @@ rolap
 2. with a variety of data loading tools
 3. can be accessed by any sql tool reporting
 4. by decoupling the data storage multidim model,its possible to successfully model data
-
+5. the rolap approach can leverage database auth controls such as row level security
+6. better at handling non aggregable facts
 
 
 
