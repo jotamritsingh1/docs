@@ -46,22 +46,3 @@ independent of tech
 Physical data model > must show detail
 
 
-
-
-
-
-
-
-
-
-
-Ex. Pgbench,sysbench,jmeter,flamegraph.
-
-With support for testing large scale 
-Web based distributed app on containers
-
-Such as tomcat,Jboss,weblogic,websphere in unix.
-
-
-
-
