@@ -1,0 +1,33 @@
+Open telemetry 
+  vendor agnostic/vendor neutral API
+  SDK
+  Other tools for collecting data
+
+1. Standardize observibilty data
+2. minimize vendor lockin
+3. gain deep insights to optimize
+    performance and enhance digital experiences
+
+open source observability framework 
+that help you understand the performance and health of cloud native apps
+
+Splunk
+kubernetes
+prometheus
+
+
+Melt 
+Metrics
+events
+logs
+traces - Identifiers timestamps,contextual information, rate, errors,duration 
+
+
+
+
+
+
+
+
+
+
