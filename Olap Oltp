@@ -1,0 +1,59 @@
+Olap vs Oltp
+
+
+Olap
+
+uses
+Business intelligence
+relational databases 
+Data mining
+
+
+databases stored aggregated
+low rate of txn
+complex queries
+Star schema(multi dimentional)
+snowflake schema 
+constellation of tables relation db
+
+
+Fact table
+Facts -measures
+categories - dimension
+
+Multidimentional table databases
+to organize data and express relationships between data
+structure is broken into cubes and cubes are able to store 
+and cubes are able to store and access data within the confines of each cube
+
+It has been claimedthat for complex queries olap cubes 0.1% of the time
+aggregation are built from fact tble by changing the granularity on specific dimension 
+and aggregating up data along these dimensions.
+
+Aggregate function
+the number of possible aggregations is determined by every possible combination of dimention
+
+dimension table.
+measure are derived from the recordsin the fact table.
+
+
+
+
+
+
+data latency of few hours
+rollup(consolidation)
+drill down 
+slicing and dicing
+Historical data 
+
+
+Oltp 
+
+online transaction processing
+short online txn
+fast query
+low latency
+detailed and current data
+entity model schema
+3NF
