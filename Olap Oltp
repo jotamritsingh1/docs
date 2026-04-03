@@ -36,6 +36,11 @@ the number of possible aggregations is determined by every possible combination 
 dimension table.
 measure are derived from the recordsin the fact table.
 
+rolap 
+1. large data vol
+2. with a variety of data loading tools
+3. can be accessed by any sql tool reporting
+4. by decoupling the data storage multidim model,its possible to successfully model data
 
 
 
