@@ -1,0 +1,41 @@
+AI in telemetry 
+1. bottlenecks
+2. optimizing AI workloads
+3. correlation/RCA faster resolution
+4. adaptive monitoring - AI can dynamically adjust the granularity and focus of telemetry data collection
+                          based on system behavior.
+
+1. Data collection 
+2. ingestion analysis
+3. unified view
+
+
+
+AI observability
+LLM tracing
+logs
+compliance reporting
+on premise deployment
+org and workspaces
+RBAC
+SAML
+Single sign on  
+History lookback
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
