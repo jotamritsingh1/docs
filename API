@@ -1,0 +1,83 @@
+Support for RESTful APIs, websockets 
+Workloads that require API management features 
+For building realtime two way comm app such as chat apps and streaming dashboards use websockets API.
+
+2.
+private integrations 
+API gateway to PVT vpc
+alb?
+nlb?
+IP based services 
+
+3. resilient 
+  throtlling 
+API gateway manage traffic to your backend system allowing choices in 
+cache
+custom keys
+TTL for data
+
+4. console for creation and deployment
+
+5. API operations monitoring 
+  cloud watch 
+  calls,latency,error rate
+
+API gateway can also log API execution errors to cloud watch.
+
+
+6. Auth
+to authiruse and verify 
+signature version 4 (TAM)
+use lambda functions to verify and Auth bearer tokens,JWT tokens, SAML assertions
+
+7. Third party devs (API keys)
+
+8. API life cycle management 
+If you are using REST APIs 
+API gateway lets you run multiple versions of the sae API
+
+Multi stage release
+
+Custom domains
+
+Testing
+Stage and version management
+Allow you to easily test new API versions that enhance or add functionality to earlier API releases.
+And ensures backward compatibility as user communitites transition to adopt latest releases.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
