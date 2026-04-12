@@ -1,0 +1,56 @@
+APP based features
+
+1. Routing
+2. Component based
+3. state management
+
+framework choice depends on app requirements
+
+Expertise 
+performance goals
+development priority
+
+Control flow 
+Hook onto flow by exposing events (inversion of control)
+middle ware hooks
+
+1. Define logging 
+2. Auth
+3. session mgt
+4. redirecting
+
+Web cache 
+caching reduces bandwith
+server load
+lag
+
+security
+authentication
+authorization
+
+restful web 2.0
+ROA (resource oriented ach) 
+Semantic web (ontology)
+RDF (resource description framework)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
