@@ -1,0 +1,38 @@
+HTML 
+CGI
+Dynamic webpages (cold fusion,PHP,Active server pages)
+
+
+TYPE
+1. MVC (Model view controller)
+Data model is seperated in 2
+
+a.Business rules (controller)
+b.User interface (view)
+
+2. Push based Vs Pull based
+action based ,these frameworks use actions that do the required processing and then push the data
+
+pull based 
+start with the view layer
+which can then "Pull"
+resuls from multiple controllers as needed.
+
+multiple controllers can be involved with a single view.
+
+3. 
+Three - tier org
+
+1. client > web browser
+2. application > Generates html
+3. database >  (RDBMS normally)
+
+
+
+
+
+
+
+
+
+
