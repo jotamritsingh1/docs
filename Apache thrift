@@ -1,0 +1,35 @@
+IDL  Interface definition language and binary communication protocol 
+It uses (RPC) -> remote procedure call
+combine SW stack with a code generation engine to build cross platform services
+
+data structures 
+In contrast to built in types 
+data structres are sent as a result of generated code
+protocol and transport layer are partof the runtime lib
+
+Protocols
+Tbinary - not optimised for space efficient 
+T compact - compact binary 
+T json - Json 
+T simple Json  -> for scripting lang only  
+
+TSimple file format - 
+T framed transport - non blocking serve framed data
+T memory transport - Mem I/O
+T socket - blocking Socket I/O 
+T Zlib transport - compression Zlib 
+
+T non blocking server - multi threaded server using non blocking I/O 
+Tsimple server - A single threaded server using std blocking I/O 
+Thread server - multi threaded server using thread per conn  model and standard blocking I/O 
+thread pool server 
+
+
+
+
+
+
+
+
+
+
